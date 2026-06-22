@@ -1,0 +1,8 @@
+application:
+  name: whoogle
+  pods:
+  - name: app
+    image: benbusby/whoogle-search:latest
+    path: /
+    servicePorts:
+    - 5000
