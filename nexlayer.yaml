@@ -2,7 +2,7 @@ application:
   name: whoogle
   pods:
   - name: app
-    image: benbusby/whoogle-search:latest
+    image: mirror.gcr.io/benbusby/whoogle-search:latest
     path: /
     servicePorts:
     - 5000
